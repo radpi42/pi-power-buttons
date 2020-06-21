@@ -4,6 +4,6 @@
 
 
 cd /
-cd home/pi/pwrcontrol
+cd home/pi/pi-power-buttons
 sudo python3 resetbutton.py
 cd /
