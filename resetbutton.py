@@ -56,7 +56,7 @@ def shutdown():
         red.off()
         shutdown_btn.was_held = False
         print("success")
-#####        check_call(['sudo', 'poweroff'])
+        check_call(['sudo', 'poweroff'])
     else:
         red.off()
      #   print("Cancled")
@@ -95,7 +95,7 @@ def reboot():
         blue.off()
         restart_btn.was_held = False
         print("success")
-#####        check_call(['sudo', 'reboot'])    
+        check_call(['sudo', 'reboot'])    
     else:
         blue.off()
         sleep(0.5)
