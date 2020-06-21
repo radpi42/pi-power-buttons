@@ -26,7 +26,7 @@ restart_btn = Button(16, hold_time=2)
 
 def SDpressed():
     red.on()
-#    print("Shutdown Command Primed")
+    print("Shutdown Command Primed")
 #    print("Hold to proceed")
     
     
@@ -68,7 +68,7 @@ def shutdown():
 
 def RBpressed():
     blue.on()
-#    print("Reboot Command Primed")
+    print("Reboot Command Primed")
  #   print("Hold to proceed")
 
 def RBheld(reboot_btn):
